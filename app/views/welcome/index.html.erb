@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset='utf-8'>
+        <title>
+            SVG anima 720px
+        </title>
+        <style type='text/css'>
+		     
+             .svg-container { 
+                display: inline-block;
+                position: relative;
+                width: 100%;
+                min-width: 250px;
+                padding-bottom: 100%; 
+                vertical-align: middle;  
+                z-index: 1;   
+             }
+            .svg-content {
+                  display: inline-block;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  z-index: -1000;
+              }
+        </style>
+    </head>
+    <body>
+        
+            <a class="svg-container" href="https://www.youtube.com/watch?v=ONTIDCe0DeE" onclick="alert('abir video')">
+                <object type="image/svg+xml" data="Final.svg" width="100%" height="100%" class="svg-content">
+                </object>
+            </a>
+               
+    </body>
+</html>
