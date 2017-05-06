@@ -16,41 +16,43 @@
         font-size: 300px;
         fill: #FFF;
       }
-      rect {
+      g#code > g > rect {
         width: 360px;
         height: 360px;
       }
 
-    </style>
-    <g id="c">
-      <rect rx="60" y="30" x="30" width="360" height="360">
-        <animate begin="21.5s" attributeName="rx" dur="6s" to="50%" fill="freeze"/>
-      </rect>
-    </g>
-    <g id="text1">
-       <text x="95" y="318">C</text>
-    </g>
-    <g id="text2">
-       <text>
-        <tspan x="135" y="339" font-size="200px">HORA</tspan> 
-        <tspan x="320" y="469" font-size="100px">DEL</tspan>
-        <tspan x="120" y="639" font-size="145px">CÓDIGO</tspan> 
-      </text>
-    </g>
-    <g id="code">
-      <g id="o">
-       <rect x="415" y="30" rx="60" fill="black"/>
-       <text x="480" y="318">O</text>
+    </style> 
+    <g id="letras">
+      <g id="c">
+        <rect rx="60" y="30" x="30" width="360" height="360">
+          <animate begin="21.5s" attributeName="rx" dur="6s" to="50%" fill="freeze"/>
+        </rect>
       </g>
-      <g id="d">
-       <rect x="30" y="415" rx="60" fill="black"/>
-       <text x="95" y="700">D</text>
+      <g id="text1">
+         <text x="95" y="318">C</text>
       </g>
-     <g id="e">
-       <rect x="415" y="415" rx="60" fill="black"/>
-       <text x="480" y="700">E</text>
-     </g>
-    </g> 
+      <g id="text2">
+         <text>
+          <tspan x="135" y="339" font-size="200px">HORA</tspan> 
+          <tspan x="320" y="469" font-size="100px">DEL</tspan>
+          <tspan x="120" y="639" font-size="145px">CÓDIGO</tspan> 
+        </text>
+      </g>
+      <g id="code">
+        <g id="o">
+         <rect x="415" y="30" rx="60" fill="black"/>
+         <text x="480" y="318">O</text>
+        </g>
+        <g id="d">
+         <rect x="30" y="415" rx="60" fill="black"/>
+         <text x="95" y="700">D</text>
+        </g>
+       <g id="e">
+         <rect x="415" y="415" rx="60" fill="black"/>
+         <text x="480" y="700">E</text>
+       </g>
+      </g> 
+    </g>
 	<g id="logoCuu">
 	  <g id="parte1">		
 			<path id="x1" fill="black" d="M443.32,128.325c-1.873-1.457-5.794-3.573-8.638-4.788c-2.845-1.179-6.765-4.301-8.673-6.903
@@ -130,11 +132,12 @@
       <rect fill="url(#grad3)" rx="600" y="30" x="30" width="360" height="360"/>
    </g> 
    <g id="play_logo">
-    <a xlink:href="https://www.google.com">
+    
        <polygon id="play1" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="319.027,557.811 327.113,245.19 554.973,407.498 "/>
-   </a>
+    
    </g>
  </defs>	
+
  <g id="anima_logoCuu">
     <use xlink:href="#logoCuu" opacity="0">      
       <animate attributeName="opacity"
@@ -274,4 +277,7 @@
         />
     </use>
   </g>
+       <g id="video">
+      <rect x="30" y="30" width="800px" height="800px" fill="black" onclick="window.open('https://www.w3schools.com')" opacity="0"></rect>
+    </g> 
 </svg>
